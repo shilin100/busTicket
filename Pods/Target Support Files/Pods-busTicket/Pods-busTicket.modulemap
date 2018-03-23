@@ -1,0 +1,6 @@
+framework module Pods_busTicket {
+  umbrella header "Pods-busTicket-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32573FBF2E884E676BEBBCC4 /* Pods_busTicket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0377D6E6DAA568638B8E8067 /* Pods_busTicket.framework */; };
+		CBBD4BE63B32B39564055CFB /* Pods_busTicketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C626F6B5EDA1B2253258E /* Pods_busTicketUITests.framework */; };
 		CD9280B02064DA72008B5D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280AF2064DA72008B5D02 /* AppDelegate.swift */; };
 		CD9280B22064DA72008B5D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280B12064DA72008B5D02 /* ViewController.swift */; };
 		CD9280B52064DA72008B5D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B32064DA72008B5D02 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		CD9280BA2064DA72008B5D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B82064DA72008B5D02 /* LaunchScreen.storyboard */; };
 		CD9280C52064DA72008B5D02 /* busTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280C42064DA72008B5D02 /* busTicketTests.swift */; };
 		CD9280D02064DA73008B5D02 /* busTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280CF2064DA73008B5D02 /* busTicketUITests.swift */; };
+		FC42932E2286E7C260487C37 /* Pods_busTicketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF46EB5C70B1632E2E1366 /* Pods_busTicketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0377D6E6DAA568638B8E8067 /* Pods_busTicket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busTicket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B549728F76BB06708DC082 /* Pods-busTicketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busTicketUITests/Pods-busTicketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18F01BFE04322216648A2AF6 /* Pods-busTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-busTicket/Pods-busTicket.release.xcconfig"; sourceTree = "<group>"; };
+		22EA494E213F64D833BE6A61 /* Pods-busTicketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-busTicketUITests/Pods-busTicketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E3C626F6B5EDA1B2253258E /* Pods_busTicketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busTicketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBFCF95B87B596E4846C105 /* Pods-busTicketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busTicketTests/Pods-busTicketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DBD693C2FAD90AFFEDAAADE /* Pods-busTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busTicket/Pods-busTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		927A3ACBEC0F40A76CFBDED1 /* Pods-busTicketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-busTicketTests/Pods-busTicketTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6CF46EB5C70B1632E2E1366 /* Pods_busTicketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busTicketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9280AC2064DA72008B5D02 /* busTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9280AF2064DA72008B5D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9280B12064DA72008B5D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32573FBF2E884E676BEBBCC4 /* Pods_busTicket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC42932E2286E7C260487C37 /* Pods_busTicketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBD4BE63B32B39564055CFB /* Pods_busTicketUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5467CF83F4F621CD6ED4B94B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD693C2FAD90AFFEDAAADE /* Pods-busTicket.debug.xcconfig */,
+				18F01BFE04322216648A2AF6 /* Pods-busTicket.release.xcconfig */,
+				3BBFCF95B87B596E4846C105 /* Pods-busTicketTests.debug.xcconfig */,
+				927A3ACBEC0F40A76CFBDED1 /* Pods-busTicketTests.release.xcconfig */,
+				07B549728F76BB06708DC082 /* Pods-busTicketUITests.debug.xcconfig */,
+				22EA494E213F64D833BE6A61 /* Pods-busTicketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918CBB6216D90F0362ED8A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0377D6E6DAA568638B8E8067 /* Pods_busTicket.framework */,
+				B6CF46EB5C70B1632E2E1366 /* Pods_busTicketTests.framework */,
+				2E3C626F6B5EDA1B2253258E /* Pods_busTicketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5765082064EB3500C9D547 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		CD5765092064EB4E00C9D547 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD57650A2064EB5900C9D547 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		CD57650B2064EB6C00C9D547 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		CD9280A32064DA72008B5D02 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				CD9280C32064DA72008B5D02 /* busTicketTests */,
 				CD9280CE2064DA73008B5D02 /* busTicketUITests */,
 				CD9280AD2064DA72008B5D02 /* Products */,
+				5467CF83F4F621CD6ED4B94B /* Pods */,
+				918CBB6216D90F0362ED8A2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +167,10 @@
 			children = (
 				CD9280AF2064DA72008B5D02 /* AppDelegate.swift */,
 				CD9280B12064DA72008B5D02 /* ViewController.swift */,
+				CD57650B2064EB6C00C9D547 /* Common */,
+				CD57650A2064EB5900C9D547 /* Venders */,
+				CD5765092064EB4E00C9D547 /* Tools */,
+				CD5765082064EB3500C9D547 /* Sections */,
 				CD9280B32064DA72008B5D02 /* Main.storyboard */,
 				CD9280B62064DA72008B5D02 /* Assets.xcassets */,
 				CD9280B82064DA72008B5D02 /* LaunchScreen.storyboard */,
@@ -132,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9280D42064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicket" */;
 			buildPhases = (
+				09D418D2F8FCC3A93CF7F7F3 /* [CP] Check Pods Manifest.lock */,
 				CD9280A82064DA72008B5D02 /* Sources */,
 				CD9280A92064DA72008B5D02 /* Frameworks */,
 				CD9280AA2064DA72008B5D02 /* Resources */,
+				19A270024A214810B1D5643C /* [CP] Embed Pods Frameworks */,
+				734714EF6E928CCAF3CB0763 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9280D72064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketTests" */;
 			buildPhases = (
+				708F5BBF1CD7EDF558D40C30 /* [CP] Check Pods Manifest.lock */,
 				CD9280BC2064DA72008B5D02 /* Sources */,
 				CD9280BD2064DA72008B5D02 /* Frameworks */,
 				CD9280BE2064DA72008B5D02 /* Resources */,
+				A33AFB5C1AD73DE8F027E84D /* [CP] Embed Pods Frameworks */,
+				EEFEFF8B14B39F67E22E317E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9280DA2064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketUITests" */;
 			buildPhases = (
+				B14C1379C6E3B1A8DD3EEF94 /* [CP] Check Pods Manifest.lock */,
 				CD9280C72064DA73008B5D02 /* Sources */,
 				CD9280C82064DA73008B5D02 /* Frameworks */,
 				CD9280C92064DA73008B5D02 /* Resources */,
+				3ED808CF6A93550F31F9590D /* [CP] Embed Pods Frameworks */,
+				5DD5CCC28675FCF09A520E13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +334,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D418D2F8FCC3A93CF7F7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19A270024A214810B1D5643C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicket/Pods-busTicket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED808CF6A93550F31F9590D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicketUITests/Pods-busTicketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD5CCC28675FCF09A520E13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicketUITests/Pods-busTicketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708F5BBF1CD7EDF558D40C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		734714EF6E928CCAF3CB0763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicket/Pods-busTicket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33AFB5C1AD73DE8F027E84D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicketTests/Pods-busTicketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14C1379C6E3B1A8DD3EEF94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFEFF8B14B39F67E22E317E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTicketTests/Pods-busTicketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD9280A82064DA72008B5D02 /* Sources */ = {
@@ -424,6 +643,7 @@
 		};
 		CD9280D52064DA73008B5D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBD693C2FAD90AFFEDAAADE /* Pods-busTicket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +659,7 @@
 		};
 		CD9280D62064DA73008B5D02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F01BFE04322216648A2AF6 /* Pods-busTicket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +675,7 @@
 		};
 		CD9280D82064DA73008B5D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBFCF95B87B596E4846C105 /* Pods-busTicketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +693,7 @@
 		};
 		CD9280D92064DA73008B5D02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927A3ACBEC0F40A76CFBDED1 /* Pods-busTicketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +711,7 @@
 		};
 		CD9280DB2064DA73008B5D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B549728F76BB06708DC082 /* Pods-busTicketUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +728,7 @@
 		};
 		CD9280DC2064DA73008B5D02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EA494E213F64D833BE6A61 /* Pods-busTicketUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
