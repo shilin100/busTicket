@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9280B02064DA72008B5D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280AF2064DA72008B5D02 /* AppDelegate.swift */; };
+		CD9280B22064DA72008B5D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280B12064DA72008B5D02 /* ViewController.swift */; };
+		CD9280B52064DA72008B5D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B32064DA72008B5D02 /* Main.storyboard */; };
+		CD9280B72064DA72008B5D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B62064DA72008B5D02 /* Assets.xcassets */; };
+		CD9280BA2064DA72008B5D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B82064DA72008B5D02 /* LaunchScreen.storyboard */; };
+		CD9280C52064DA72008B5D02 /* busTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280C42064DA72008B5D02 /* busTicketTests.swift */; };
+		CD9280D02064DA73008B5D02 /* busTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280CF2064DA73008B5D02 /* busTicketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9280C12064DA72008B5D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9280A42064DA72008B5D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9280AB2064DA72008B5D02;
+			remoteInfo = busTicket;
+		};
+		CD9280CC2064DA73008B5D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9280A42064DA72008B5D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9280AB2064DA72008B5D02;
+			remoteInfo = busTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9280AC2064DA72008B5D02 /* busTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9280AF2064DA72008B5D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9280B12064DA72008B5D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9280B42064DA72008B5D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9280B62064DA72008B5D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9280B92064DA72008B5D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9280BB2064DA72008B5D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9280C02064DA72008B5D02 /* busTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9280C42064DA72008B5D02 /* busTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busTicketTests.swift; sourceTree = "<group>"; };
+		CD9280C62064DA72008B5D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9280CB2064DA73008B5D02 /* busTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9280CF2064DA73008B5D02 /* busTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busTicketUITests.swift; sourceTree = "<group>"; };
+		CD9280D12064DA73008B5D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9280A92064DA72008B5D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280BD2064DA72008B5D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280C82064DA73008B5D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9280A32064DA72008B5D02 = {
+			isa = PBXGroup;
+			children = (
+				CD9280AE2064DA72008B5D02 /* busTicket */,
+				CD9280C32064DA72008B5D02 /* busTicketTests */,
+				CD9280CE2064DA73008B5D02 /* busTicketUITests */,
+				CD9280AD2064DA72008B5D02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9280AD2064DA72008B5D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9280AC2064DA72008B5D02 /* busTicket.app */,
+				CD9280C02064DA72008B5D02 /* busTicketTests.xctest */,
+				CD9280CB2064DA73008B5D02 /* busTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9280AE2064DA72008B5D02 /* busTicket */ = {
+			isa = PBXGroup;
+			children = (
+				CD9280AF2064DA72008B5D02 /* AppDelegate.swift */,
+				CD9280B12064DA72008B5D02 /* ViewController.swift */,
+				CD9280B32064DA72008B5D02 /* Main.storyboard */,
+				CD9280B62064DA72008B5D02 /* Assets.xcassets */,
+				CD9280B82064DA72008B5D02 /* LaunchScreen.storyboard */,
+				CD9280BB2064DA72008B5D02 /* Info.plist */,
+			);
+			path = busTicket;
+			sourceTree = "<group>";
+		};
+		CD9280C32064DA72008B5D02 /* busTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9280C42064DA72008B5D02 /* busTicketTests.swift */,
+				CD9280C62064DA72008B5D02 /* Info.plist */,
+			);
+			path = busTicketTests;
+			sourceTree = "<group>";
+		};
+		CD9280CE2064DA73008B5D02 /* busTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9280CF2064DA73008B5D02 /* busTicketUITests.swift */,
+				CD9280D12064DA73008B5D02 /* Info.plist */,
+			);
+			path = busTicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9280AB2064DA72008B5D02 /* busTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9280D42064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicket" */;
+			buildPhases = (
+				CD9280A82064DA72008B5D02 /* Sources */,
+				CD9280A92064DA72008B5D02 /* Frameworks */,
+				CD9280AA2064DA72008B5D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = busTicket;
+			productName = busTicket;
+			productReference = CD9280AC2064DA72008B5D02 /* busTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9280BF2064DA72008B5D02 /* busTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9280D72064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketTests" */;
+			buildPhases = (
+				CD9280BC2064DA72008B5D02 /* Sources */,
+				CD9280BD2064DA72008B5D02 /* Frameworks */,
+				CD9280BE2064DA72008B5D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9280C22064DA72008B5D02 /* PBXTargetDependency */,
+			);
+			name = busTicketTests;
+			productName = busTicketTests;
+			productReference = CD9280C02064DA72008B5D02 /* busTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9280CA2064DA73008B5D02 /* busTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9280DA2064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketUITests" */;
+			buildPhases = (
+				CD9280C72064DA73008B5D02 /* Sources */,
+				CD9280C82064DA73008B5D02 /* Frameworks */,
+				CD9280C92064DA73008B5D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9280CD2064DA73008B5D02 /* PBXTargetDependency */,
+			);
+			name = busTicketUITests;
+			productName = busTicketUITests;
+			productReference = CD9280CB2064DA73008B5D02 /* busTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9280A42064DA72008B5D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = 100;
+				TargetAttributes = {
+					CD9280AB2064DA72008B5D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD9280BF2064DA72008B5D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9280AB2064DA72008B5D02;
+					};
+					CD9280CA2064DA73008B5D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9280AB2064DA72008B5D02;
+					};
+				};
+			};
+			buildConfigurationList = CD9280A72064DA72008B5D02 /* Build configuration list for PBXProject "busTicket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9280A32064DA72008B5D02;
+			productRefGroup = CD9280AD2064DA72008B5D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9280AB2064DA72008B5D02 /* busTicket */,
+				CD9280BF2064DA72008B5D02 /* busTicketTests */,
+				CD9280CA2064DA73008B5D02 /* busTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9280AA2064DA72008B5D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9280BA2064DA72008B5D02 /* LaunchScreen.storyboard in Resources */,
+				CD9280B72064DA72008B5D02 /* Assets.xcassets in Resources */,
+				CD9280B52064DA72008B5D02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280BE2064DA72008B5D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280C92064DA73008B5D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9280A82064DA72008B5D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9280B22064DA72008B5D02 /* ViewController.swift in Sources */,
+				CD9280B02064DA72008B5D02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280BC2064DA72008B5D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9280C52064DA72008B5D02 /* busTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9280C72064DA73008B5D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9280D02064DA73008B5D02 /* busTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9280C22064DA72008B5D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9280AB2064DA72008B5D02 /* busTicket */;
+			targetProxy = CD9280C12064DA72008B5D02 /* PBXContainerItemProxy */;
+		};
+		CD9280CD2064DA73008B5D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9280AB2064DA72008B5D02 /* busTicket */;
+			targetProxy = CD9280CC2064DA73008B5D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9280B32064DA72008B5D02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9280B42064DA72008B5D02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9280B82064DA72008B5D02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9280B92064DA72008B5D02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9280D22064DA73008B5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9280D32064DA73008B5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9280D52064DA73008B5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9280D62064DA73008B5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9280D82064DA73008B5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busTicket.app/busTicket";
+			};
+			name = Debug;
+		};
+		CD9280D92064DA73008B5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busTicket.app/busTicket";
+			};
+			name = Release;
+		};
+		CD9280DB2064DA73008B5D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = busTicket;
+			};
+			name = Debug;
+		};
+		CD9280DC2064DA73008B5D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28K8F93ZH;
+				INFOPLIST_FILE = busTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = busTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9280A72064DA72008B5D02 /* Build configuration list for PBXProject "busTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9280D22064DA73008B5D02 /* Debug */,
+				CD9280D32064DA73008B5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9280D42064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9280D52064DA73008B5D02 /* Debug */,
+				CD9280D62064DA73008B5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9280D72064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9280D82064DA73008B5D02 /* Debug */,
+				CD9280D92064DA73008B5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9280DA2064DA73008B5D02 /* Build configuration list for PBXNativeTarget "busTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9280DB2064DA73008B5D02 /* Debug */,
+				CD9280DC2064DA73008B5D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9280A42064DA72008B5D02 /* Project object */;
+}
