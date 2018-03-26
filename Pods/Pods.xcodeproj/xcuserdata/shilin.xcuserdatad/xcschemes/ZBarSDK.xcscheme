@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '56F52D4B1AB366788939E8AF2B84FD0E'
+               BlueprintIdentifier = '09B981274F25F2CF508255737319BEA3'
                BlueprintName = 'ZBarSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ZBarSDK.framework'>

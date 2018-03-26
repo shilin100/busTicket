@@ -6,6 +6,7 @@ PODS:
   - JCore (1.1.7)
   - JPush (3.0.8):
     - JCore (~> 1.1.7)
+  - MarqueeLabel/Swift (3.1.4)
   - MJRefresh (3.1.15.3)
   - ReachabilitySwift (4.1.0)
   - SDWebImage (4.2.3):
@@ -22,6 +23,7 @@ DEPENDENCIES:
   - Bugly
   - IQKeyboardManagerSwift
   - JPush
+  - MarqueeLabel/Swift
   - MJRefresh
   - ReachabilitySwift
   - SDWebImage
@@ -37,6 +39,7 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
   JCore: f7459c81c135281a874a6beafdd321666adcc834
   JPush: 9574d072cc37e93fa293ba69b43ce763c440943a
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
@@ -45,6 +48,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: b06031fb43a06b65a413a745e1fd84807ef05dea
+PODFILE CHECKSUM: 43b1c0efbb94c9c5c49548871e1a21d9a76fdb39
 
 COCOAPODS: 1.2.1

@@ -20,7 +20,7 @@ pod 'SnapKit'
 pod 'BaiduMapKit' #百度地图SDK
 pod 'MJRefresh'
 pod 'Bugly'
-
+pod 'MarqueeLabel/Swift'
 
 
 
