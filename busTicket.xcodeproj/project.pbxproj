@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		32573FBF2E884E676BEBBCC4 /* Pods_busTicket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0377D6E6DAA568638B8E8067 /* Pods_busTicket.framework */; };
 		CBBD4BE63B32B39564055CFB /* Pods_busTicketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C626F6B5EDA1B2253258E /* Pods_busTicketUITests.framework */; };
+		CD576513206895C000C9D547 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD576512206895C000C9D547 /* HomeVC.swift */; };
+		CD576515206895D800C9D547 /* MyTripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD576514206895D800C9D547 /* MyTripVC.swift */; };
+		CD576517206895F300C9D547 /* UserCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD576516206895F300C9D547 /* UserCenterVC.swift */; };
 		CD9280B02064DA72008B5D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280AF2064DA72008B5D02 /* AppDelegate.swift */; };
 		CD9280B22064DA72008B5D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9280B12064DA72008B5D02 /* ViewController.swift */; };
 		CD9280B52064DA72008B5D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9280B32064DA72008B5D02 /* Main.storyboard */; };
@@ -46,6 +49,9 @@
 		7DBD693C2FAD90AFFEDAAADE /* Pods-busTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busTicket/Pods-busTicket.debug.xcconfig"; sourceTree = "<group>"; };
 		927A3ACBEC0F40A76CFBDED1 /* Pods-busTicketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTicketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-busTicketTests/Pods-busTicketTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6CF46EB5C70B1632E2E1366 /* Pods_busTicketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busTicketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD576512206895C000C9D547 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CD576514206895D800C9D547 /* MyTripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripVC.swift; sourceTree = "<group>"; };
+		CD576516206895F300C9D547 /* UserCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterVC.swift; sourceTree = "<group>"; };
 		CD9280AC2064DA72008B5D02 /* busTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9280AF2064DA72008B5D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9280B12064DA72008B5D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 		CD57650B2064EB6C00C9D547 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CD5765192068962600C9D547 /* Extension */,
+				CD5765182068960900C9D547 /* Base */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 		CD57650C206879F100C9D547 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CD576512206895C000C9D547 /* HomeVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 		CD57650D206879FB00C9D547 /* MyTrip */ = {
 			isa = PBXGroup;
 			children = (
+				CD576514206895D800C9D547 /* MyTripVC.swift */,
 			);
 			path = MyTrip;
 			sourceTree = "<group>";
@@ -160,8 +170,23 @@
 		CD57650E20687A2A00C9D547 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				CD576516206895F300C9D547 /* UserCenterVC.swift */,
 			);
 			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		CD5765182068960900C9D547 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD5765192068962600C9D547 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		CD9280A32064DA72008B5D02 = {
@@ -502,8 +527,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD576513206895C000C9D547 /* HomeVC.swift in Sources */,
 				CD9280B22064DA72008B5D02 /* ViewController.swift in Sources */,
 				CD9280B02064DA72008B5D02 /* AppDelegate.swift in Sources */,
+				CD576517206895F300C9D547 /* UserCenterVC.swift in Sources */,
+				CD576515206895D800C9D547 /* MyTripVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D28K8F93ZH;
 				INFOPLIST_FILE = busTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -689,6 +718,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D28K8F93ZH;
 				INFOPLIST_FILE = busTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sl.busTicket;
 				PRODUCT_NAME = "$(TARGET_NAME)";

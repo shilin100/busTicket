@@ -7,22 +7,43 @@ target 'busTicket' do
 
   # Pods for busTicket
 
-pod 'SDWebImage'
-pod 'Alamofire' 
-pod 'JPush'
-pod 'IQKeyboardManagerSwift'
+#pod 'SDWebImage'
+
+# Network
+pod 'Alamofire'
+pod 'Moya'
+pod 'Moya/RxSwift'
+#pod 'ReachabilitySwift'
+
+# Ui
 pod 'SVProgressHUD'
-pod 'ReachabilitySwift'
+pod 'MBProgressHUD'
 pod 'TZImagePickerController'
-pod 'ZBarSDK'
 pod 'SnapKit'
 #pod 'Masonry'
-pod 'BaiduMapKit' #百度地图SDK
-pod 'MJRefresh'
-pod 'Bugly'
 pod 'MarqueeLabel/Swift'
+pod 'MJRefresh'
+pod 'Kingfisher'
+#pod 'FLEX'
+pod 'Toast'
+pod 'DZNEmptyDataSet'
 
+# Rx
+pod 'ReactorKit'
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxDataSources'
+pod 'RxOptional'
 
+# Misc
+pod 'JPush'
+pod 'IQKeyboardManagerSwift'
+pod 'ZBarSDK'
+pod 'BaiduMapKit' #百度地图SDK
+pod 'Bugly'
+pod 'CYLTabBarController'
+pod 'ObjectMapper'
+pod 'Then'
 
 
 
