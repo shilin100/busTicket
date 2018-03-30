@@ -35,7 +35,7 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.1.1)
-  - SnapKit (4.0.0)
+  - SnapKit (3.0.2)
   - SVProgressHUD (2.2.2)
   - Then (2.3.0)
   - Toast (4.0.0)
@@ -62,7 +62,7 @@ DEPENDENCIES:
   - RxDataSources
   - RxOptional
   - RxSwift
-  - SnapKit
+  - SnapKit (~> 3.0.2)
   - SVProgressHUD
   - Then
   - Toast
@@ -91,13 +91,13 @@ SPEC CHECKSUMS:
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxOptional: e5448d3e21024489e07c31f6a262f2b50c975367
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
-  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: c7c221aa5d9234e22b1f4e2113a39e817206361c
+PODFILE CHECKSUM: e1449819a5b3c30c3168a7726b353de5852e5b86
 
 COCOAPODS: 1.2.1
