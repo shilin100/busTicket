@@ -1,7 +1,11 @@
 PODS:
+  - Action (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - Alamofire (4.6.0)
   - BaiduMapKit (3.4.2)
   - Bugly (2.5.0)
+  - CGFloatLiteral (0.4.0)
   - CYLTabBarController (1.17.6)
   - Differentiator (3.0.2)
   - DZNEmptyDataSet (1.8.1)
@@ -21,10 +25,17 @@ PODS:
   - Moya/RxSwift (10.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
+  - NSObject+Rx (4.2.0):
+    - RxSwift (~> 4.0)
   - ObjectMapper (3.1.0)
   - ReactorKit (1.1.0):
     - RxSwift (>= 4.0.0)
   - Result (3.2.4)
+  - ReusableKit/Core (2.0.1)
+  - ReusableKit/RxSwift (2.0.1):
+    - ReusableKit/Core
+    - RxCocoa (>= 4.0.0-beta.0)
+    - RxSwift (>= 4.0.0-beta.0)
   - RxCocoa (4.1.1):
     - RxSwift (~> 4.0)
   - RxDataSources (3.0.2):
@@ -37,15 +48,18 @@ PODS:
   - RxSwift (4.1.1)
   - SnapKit (3.0.2)
   - SVProgressHUD (2.2.2)
+  - SwiftyBeaver (1.5.1)
   - Then (2.3.0)
   - Toast (4.0.0)
   - TZImagePickerController (1.9.8)
   - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
+  - Action
   - Alamofire
   - BaiduMapKit
   - Bugly
+  - CGFloatLiteral (~> 0.2)
   - CYLTabBarController
   - DZNEmptyDataSet
   - IQKeyboardManagerSwift
@@ -56,23 +70,28 @@ DEPENDENCIES:
   - MJRefresh
   - Moya
   - Moya/RxSwift
+  - NSObject+Rx
   - ObjectMapper
   - ReactorKit
+  - ReusableKit/RxSwift
   - RxCocoa
   - RxDataSources
   - RxOptional
   - RxSwift
   - SnapKit (~> 3.0.2)
   - SVProgressHUD
+  - SwiftyBeaver
   - Then
   - Toast
   - TZImagePickerController
   - ZBarSDK
 
 SPEC CHECKSUMS:
+  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CGFloatLiteral: 2ab558b74124b584dd023a35b7e41795a61d8140
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -84,20 +103,23 @@ SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  NSObject+Rx: cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   ReactorKit: 26470a9eff5094fae909a30af0be7cd0cf8a182d
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  ReusableKit: 11b5bde14553a35bcf3979412dbfd1e690392f14
   RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxOptional: e5448d3e21024489e07c31f6a262f2b50c975367
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyBeaver: 4f74563624b2c1e821c522c54142b5dd5ebb0f30
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: e1449819a5b3c30c3168a7726b353de5852e5b86
+PODFILE CHECKSUM: 29531e748e4c83c6a258f5eb4ab3cab8197fd066
 
 COCOAPODS: 1.2.1

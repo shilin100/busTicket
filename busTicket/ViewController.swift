@@ -12,6 +12,7 @@ import Then
 import SnapKit
 import RxCocoa
 import RxSwift
+import RxOptional
 
 class ViewController: UIViewController {
 
@@ -54,6 +55,17 @@ class ViewController: UIViewController {
             
             
         }
+        let disposeBag = DisposeBag()
+
+        text2.rx.text
+            .filterNil()
+            .subscribe(onNext: { event in
+            print("1+\(event)")
+        })
+            .disposed(by: disposeBag)
+        
+        
+        
 
     }
 

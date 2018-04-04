@@ -34,6 +34,9 @@ pod 'RxSwift'
 pod 'RxCocoa'
 pod 'RxDataSources'
 pod 'RxOptional'
+pod 'NSObject+Rx'
+pod 'ReusableKit/RxSwift'
+pod 'Action'
 
 # Misc
 pod 'JPush'
@@ -45,6 +48,7 @@ pod 'CYLTabBarController'
 pod 'ObjectMapper'
 pod 'Then'
 pod 'CGFloatLiteral', '~> 0.2'
+pod 'SwiftyBeaver'
 
 
 
